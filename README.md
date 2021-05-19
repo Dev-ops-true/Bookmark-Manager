@@ -31,16 +31,20 @@ I would like to add the site's address and title to bookmark manager
 
 
 ## Build status
-
+Data base is created
+New entries can be added to the data base
 
 ## Code style
 
 
 ## Tech/framework used
-
+VS Code
+GitHub
 
 ## Built with
-
+Ruby
+Postgres
+Rspec
 
 ## Installation
 
@@ -52,7 +56,8 @@ I would like to add the site's address and title to bookmark manager
 * Run the query we have saved in the file 01_create_bookmarks_table.sql
 
 ## Tests
-
+Rspec has been set up to mock a few entries into the database if the ENV is set to 'test'
+Feature tests are implemented to test the above
 
 ## Screenshots
 
